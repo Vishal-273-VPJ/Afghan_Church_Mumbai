@@ -1,0 +1,74 @@
+.contact {
+    background-color: #eee; /* Light background for contrast */
+}
+
+input.form-control {
+    background-color: transparent; /* Make the background transparent */
+    border: 1px solid #000; /* Blue border for visibility */
+    color: #000; /* Text color */
+    transition: border-color 0.3s; /* Smooth transition for border color */
+    box-shadow: none; /* Remove default box shadow */
+    border-radius: 0; /* Square corners */
+}
+
+/* Placeholder styles */
+input.form-control::-webkit-input-placeholder {
+    color: rgba(0, 0, 0, 0.5); /* Placeholder text color */
+}
+
+input.form-control::-moz-placeholder {
+    color: rgba(0, 0, 0, 0.5); /* Placeholder text color for Firefox */
+}
+
+input.form-control:-ms-input-placeholder {
+    color: rgba(0, 0, 0, 0.5); /* Placeholder text color for IE */
+}
+
+input.form-control:-moz-placeholder {
+    color: rgba(0, 0, 0, 0.5); /* Placeholder text color for older Firefox versions */
+}
+
+/* Add hover effect */
+input.form-control:hover {
+    border-color: #000; /* Darker blue on hover */
+}
+
+/* Focus state */
+input.form-control:focus {
+    outline: none; /* Remove default outline */
+    border-color: #0056b3; /* Darker blue on focus */
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Add shadow on focus */
+}
+
+textarea.form-control {
+    resize: none; /* Disable resizing of textarea */
+    background-color: transparent; /* Ensure textarea background is transparent */
+    border-radius: 0; /* Square corners */
+    border: 1px solid #000; /* Blue border for consistency */
+}
+
+/* Additional styles for better visibility */
+textarea.form-control:focus {
+    outline: none; /* Remove default outline */
+    border-color: #0056b3; /* Darker blue on focus */
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Add shadow on focus */
+}
+
+.button {
+    width: 50%; /* Set width for the square button */
+    height: 100%; /* Set height for the square button */
+    background-color: #007bff; /* Blue background (you can change it) */
+    color: white; /* White text color */
+    border: none; /* Remove default border */
+    border-radius: 0; /* Square corners */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+    padding: 15px; /* Add padding */
+    display: flex; /* Use flexbox to center the text */
+    align-items: center; /* Center the text vertically */
+    justify-content: center; /* Center the text horizontally */
+}
+
+/* Hover effect */
+.button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
