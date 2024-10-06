@@ -1,0 +1,24 @@
+.presbyter {
+    background-color: #eee; /* Background color */
+    color: rgb(13, 26, 38); /* Text color */
+    font-size: 20px;
+}
+
+.pastor {
+    width: 462px;
+    margin-left: 150px;
+    padding-bottom:  135px;
+}
+
+.presbyter-right {
+    padding-top: 107px;
+}
+
+.incharge {
+    font-size: 20px;
+}
+
+.rev {
+    color: #ec5300;
+    font-size: 24px;
+}

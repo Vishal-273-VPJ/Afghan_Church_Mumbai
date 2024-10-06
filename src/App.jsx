@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Donation from './pages/Donation';
 import Nopage from './pages/Nopage';
 import ContactPage from './pages/ContactPage';
+import Leadership from './pages/Leadership'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
           <Route index element={<Home />} />
           <Route path='/donation' element={<Donation />} />
           <Route path='/contact' element={<ContactPage />} />
+          <Route path='/leadership' element={<Leadership />} />
           <Route path='*' element={<Nopage />} />
         </Routes>
       </BrowserRouter>
