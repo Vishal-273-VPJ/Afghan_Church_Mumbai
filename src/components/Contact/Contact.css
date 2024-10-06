@@ -1,5 +1,9 @@
 .contact {
-    background-color: #eee; /* Light background for contrast */
+    background-color: #eee; /* Background color */
+    color: rgb(13, 26, 38); /* Text color */
+    position: relative; /* Keep it in the flow of the document */
+    z-index: 1; /* Ensure it stays above other content */
+    padding-top: 100px; /* Add padding to push content below navbar */
 }
 
 input.form-control {
