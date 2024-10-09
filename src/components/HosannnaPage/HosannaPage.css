@@ -1,0 +1,23 @@
+.hosanna {
+    background-color: #eee; /* Background color */
+    color: rgb(13, 26, 38); /* Text color */
+    position: relative; /* Keep it in the flow of the document */
+    z-index: 1; /* Ensure it stays above other content */
+    padding-top: 100px; /* Add padding to push content below navbar */
+}
+
+.hosanna-title {
+    color: #ec5300;
+}
+
+.news {
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.pdf {
+    border-radius: 15px; /* Curved border for the row */
+    overflow: hidden; /* Ensures content stays within the curved border */
+    background-color: #ffffff; /* White background for the row */
+    padding: 20px; /* Padding for the row */
+}
