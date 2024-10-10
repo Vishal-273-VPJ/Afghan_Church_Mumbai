@@ -41,6 +41,9 @@ const Header = () => {
                                 <a className="nav-link" href="leadership">Leadership</a>
                             </li>
                             <li className="nav-item">
+                                <a className="nav-link" href="sermon">Sermon</a>
+                            </li>
+                            <li className="nav-item">
                                 <a className="nav-link" href="history">History</a>
                             </li>
                             <li className="nav-item">
