@@ -31,6 +31,27 @@ const HistoryContent = () => {
     };
   }, []);
 
+  const shareOnTwitter = () => {
+    const url = encodeURIComponent(window.location.href);
+    const text = encodeURIComponent('Check out this amazing history article!');
+    window.open(`https://twitter.com/intent/tweet?url=${url}&text=${text}`, '_blank');
+  };
+
+  const shareOnFacebook = () => {
+    const url = encodeURIComponent(window.location.href);
+    window.open(`https://www.facebook.com/sharer/sharer.php?u=${url}`, '_blank');
+  };
+  const shareOnInstagram = () => {
+    // Redirect to Instagram profile or share message
+    window.open('https://www.instagram.com/yourusername/', '_blank');
+  };
+
+  const shareByEmail = () => {
+    const subject = encodeURIComponent('Interesting History Article');
+    const body = encodeURIComponent(`Check out this article: ${window.location.href}`);
+    window.location.href = `mailto:?subject=${subject}&body=${body}`;
+  };
+
   return (
     <div className='historyContent d-flex justify-content-center align-items-center'>
         <div className="col-md-6">
@@ -107,16 +128,16 @@ const HistoryContent = () => {
         {isShareVisible && (
             <div className="share-btn-group">
                 <p>SHARE</p>
-                <button className="btn btn-primary">
+                <button className="btn btn-primary" onClick={shareOnTwitter}>
                     <i className="fab fa-twitter"></i>
                 </button>
-                <button className="btn btn-primary">
+                <button className="btn btn-primary" onClick={shareOnFacebook}>
                     <i className="fab fa-facebook"></i>
                 </button>
-                <button className="btn btn-primary">
-                    <i className="fab fa-instagram"></i>
+                <button className="btn btn-primary" onClick={shareOnInstagram}>
+                    <i className="fas fa-instagram"></i>
                 </button>
-                <button className="btn btn-primary">
+                <button className="btn btn-primary" onClick={shareByEmail}>
                     <i className="fas fa-envelope"></i>
                 </button>
             </div>
