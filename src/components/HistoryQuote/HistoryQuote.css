@@ -1,0 +1,10 @@
+.historyquote {
+    background-color: #fff; /* Background color */
+    color: rgb(13, 26, 38); /* Text color */
+    position: relative; /* Keep it in the flow of the document */
+    margin: 0;
+}
+
+.historyquote .quote {
+    font-size: 24px;
+}

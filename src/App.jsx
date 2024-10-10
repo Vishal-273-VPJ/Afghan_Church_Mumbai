@@ -7,6 +7,7 @@ import Nopage from './pages/Nopage';
 import ContactPage from './pages/ContactPage';
 import Leadership from './pages/Leadership'
 import Hosanna from './pages/Hosanna';
+import History from './pages/History'
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
           <Route path='/contact' element={<ContactPage />} />
           <Route path='/leadership' element={<Leadership />} />
           <Route path='/hosanna' element={<Hosanna />} />
+          <Route path='/history' element={<History />} />
           <Route path='*' element={<Nopage />} />
         </Routes>
       </BrowserRouter>
