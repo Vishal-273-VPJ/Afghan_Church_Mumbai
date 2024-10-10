@@ -7,14 +7,10 @@ const Banner2 = () => {
       <div className="row align-items-center">
         {/* Column for the text */}
         <div className="col-md-6">
-          <h2 className='mb-4'>Our Doors are Open</h2>
+          <h2 className='mb-4'>House Of Prayer</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
-            mollit anim id est laborum.
+          “Even them will I bring to my holy mountain, and make them joyful in my house of prayer: their burnt offerings and their sacrifices shall be accepted upon mine altar; for mine house shall be called an house of prayer for all people.”
+          Isaiah 56:7
           </p>
         </div>
         <div className="col-md-6">

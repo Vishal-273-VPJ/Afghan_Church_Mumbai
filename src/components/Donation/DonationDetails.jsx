@@ -16,8 +16,8 @@ const Donation = () => {
           </div>
           <div className="details mb-4">
             <div className='mb-1'>Details are as follows:</div>
-            <div className='mb-1'>Bank Name: BANK OF INDIA, divune Main</div>
-            <div className='mb-1'>Account Name: THE SOCIETY OF ST. divAUL’S CHURCH</div>
+            <div className='mb-1'>Bank Name: BANK OF INDIA, Pune Main</div>
+            <div className='mb-1'>Account Name: THE SOCIETY OF ST. PAUL’S CHURCH</div>
             <div className='mb-1'>Account No.: 050010100069789</div>
             <div className='mb-1'>IFSC Code: BKID0000500</div>
             <div className='mb-1'>MICR Code: 411013002</div>

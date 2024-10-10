@@ -9,10 +9,11 @@ const Contact = () => {
                 <div className="col-md-6 col-lg-6">
                     <h2 className='mt-5 mb-4'>Contact Us</h2>
                     <div className="address mb-4">
-                        <pre>Lorem ipsum dolor sit amet, consectetur</pre>
-                        <pre>adipiscing elit, sed do eiusmod tempor incididunt ut</pre>
-                        <pre>labore et dolore magna aliqua. Ut enim ad minim</pre>
-                        <pre>veniam, quis nostrud exercitation ullamco laboris n</pre>
+                        <pre>St. John The Evangelist Church,</pre>
+                        <pre>Duxbury Lane, Colaba Causeway,</pre>
+                        <pre>Navy Nagar, Colaba,</pre>
+                        <pre>Mumbai - 400005,</pre>
+                        <pre>Maharashtra, India.</pre>
                     </div>
                     <p className='email mb-4'>abc@email.com</p>
                     <p className='number mb-4'>1234 56789 0</p>

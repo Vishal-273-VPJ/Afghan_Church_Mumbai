@@ -5,35 +5,35 @@ const PastorTeam = () => {
   return (
     <div>
         <div className="mt-4 pastoraltext text-center">
-            Pastoral Care Team
+            Office Bearers
         </div>
         <div className="container pastoralcare">
             <div className="row"> {/* Add gap between columns */}
                 <div className="col-md-5 pastoralteam">
                     <div className="row py-4">
                         <div className="col-md-6 d-flex flex-row">
-                            <img src="church4.jpg" alt="church-4" className="church4 img-fluid" />
+                            <img src="banner2.jpg" alt="church-4" className="church4 img-fluid" />
                         </div>
                         <div className="col-md-6 secretarycontent">
                             <span className="Secretary">
                                 Hon. Secretary
                             </span>
                             <p className='Secretaryname pt-3'>
-                                Mrs. Minoti Salvi
+                                Mr. Christopher Elisha
                             </p>
                             <p className='pt-3 pb-3'>
-                                <a href="mailto:minotisalvi43@gmail.com" className='email text-decoration-none text-dark mb-3'>
-                                    minotisalvi43@gmail.com
+                                <a href="mailto:abc@gmail.com" className='email text-decoration-none text-dark mb-3'>
+                                    abc@gmail.com
                                 </a>
                             </p>
                             <b>
-                                +91-9503866567
+                                +91-8879405069
                             </b>
-                            <p className='mt-3 d-flex gap-3'>
+                            {/*<p className='mt-3 d-flex gap-3'>
                                 <i className="fab fa-facebook" style={{ fontSize: '25px' }}></i>
                                 <i className="fab fa-twitter" style={{ fontSize: '25px' }}></i>
                                 <i className="fab fa-instagram" style={{ fontSize: '25px' }}></i>
-                            </p>
+                            </p>*/}
                         </div>
                     </div>
                 </div>
@@ -41,28 +41,28 @@ const PastorTeam = () => {
                 <div className="col-md-5 pastoralteam">
                     <div className="row py-4">
                         <div className="col-md-6 d-flex flex-row">
-                            <img src="church3.jpg" alt="church-3" className="church3 img-fluid" />
+                            <img src="banner2.jpg" alt="church-3" className="church3 img-fluid" />
                         </div>
                         <div className="col-md-6 secretarycontent">
                             <span className="Secretary">
-                                Hon. Secretary
+                                Hon. Treasurer
                             </span>
                             <p className='Secretaryname pt-3'>
-                                Mr. S J V Chelliah
+                                Mr. Mathew Lathra
                             </p>
                             <p className='pt-3 pb-3'>
-                                <a href="mailto:chelliah.dorcas@gmail.com" className='email text-decoration-none text-dark mb-3'>
-                                    chelliah.dorcas@gmail.com
+                                <a href="mailto:abc@gmail.com" className='email text-decoration-none text-dark mb-3'>
+                                    abc@gmail.com
                                 </a>
                             </p>
                             <b>
-                                +91-9158506703
+                                +91-9876543210
                             </b>
-                            <p className='mt-3 d-flex gap-3'>
+                            {/*<p className='mt-3 d-flex gap-3'>
                                 <i className="fab fa-facebook" style={{ fontSize: '25px' }}></i>
                                 <i className="fab fa-twitter" style={{ fontSize: '25px' }}></i>
                                 <i className="fab fa-instagram" style={{ fontSize: '25px' }}></i>
-                            </p>
+                            </p>*/}
                         </div>
                     </div>
                 </div>

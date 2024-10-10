@@ -6,11 +6,14 @@
     position: relative; /* Keep it in the flow of the document */
     z-index: 5; /* Ensure it stays above other content */
     width: 100%; /* Take 100% width of the container */
+    padding-top: 100px; /* Add padding to push content below navbar */
   }
   
   .banner-image {
     width: 100%; /* Make the image take full width of the banner */
-    height: auto; /* Maintain aspect ratio */
+    height: 750px; /* Maintain aspect ratio */
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
     margin-bottom: 20px; /* Space between the image and the text */
     display: block; /* Ensure it behaves like a block element */
   }

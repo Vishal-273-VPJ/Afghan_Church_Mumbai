@@ -32,7 +32,7 @@ const HosannaPage = () => {
 
     return (
         <div className='hosanna pb-5'>
-            <h3 className="pt-5 pb-3 hosanna-title text-center">Hosana</h3>
+            <h3 className="pt-5 pb-3 hosanna-title text-center">Church Service and Other Materials</h3>
             <p className='text-center news pb-5'>Afghan Church newsletter</p>
             <div className="container">
                 {currentItems.map((item, index) => (
@@ -51,7 +51,7 @@ const HosannaPage = () => {
                                 target="_blank" 
                                 rel="noopener noreferrer"
                             >
-                                Download Service Order
+                                Download
                             </a>
                         </div>
                     </div>
