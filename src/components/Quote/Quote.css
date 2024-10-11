@@ -1,0 +1,47 @@
+.quote {
+    display: flex;            /* Use flexbox */
+    flex-direction: column;   /* Align items in a column */
+    justify-content: center;  /* Center content vertically */
+    align-items: center;      /* Center content horizontally */
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    font-family: 'Georgia', serif;
+    padding-top: 200px;
+    padding-bottom: 30px;
+  }
+  
+  blockquote {
+    font-size: 1.5em;
+    font-style: italic;
+    margin: 10px 0;
+    text-align: center;      /* Center blockquote text */
+  }
+  
+  footer {
+    font-size: 1em;
+    text-align: right;
+    margin-top: 5px;
+  }
+  
+  .quote-text {
+    margin: 10px 0;
+    font-size: 1.2em;
+    text-align: center;      /* Center quote text */
+  }
+  
+  .main-page-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .main-page-link:hover {
+    background-color: #0056b3;
+  }
+  

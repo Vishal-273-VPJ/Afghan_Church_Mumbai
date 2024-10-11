@@ -1,9 +1,16 @@
 import React from 'react'
+import Header from '../components/Header/Header'
+import Footer from '../components/Footer/Footer'
+import Quote from '../components/Quote/Quote'
 
-const Nopage = () => {
+const Hosanna = () => {
   return (
-    <div>Nopage</div>
+    <div>
+        <Header />
+        <Quote />
+        <Footer />
+    </div>
   )
 }
 
-export default Nopage
+export default Hosanna

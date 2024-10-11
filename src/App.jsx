@@ -9,6 +9,7 @@ import Leadership from './pages/Leadership'
 import Hosanna from './pages/Hosanna';
 import History from './pages/History'
 import Sermon from './pages/Sermon';
+import SupportPage from './pages/SupportPage';
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
           <Route path='/hosanna' element={<Hosanna />} />
           <Route path='/history' element={<History />} />
           <Route path='/sermon' element={<Sermon />} />
+          <Route path='/services' element={<SupportPage />} />
           <Route path='*' element={<Nopage />} />
         </Routes>
       </BrowserRouter>

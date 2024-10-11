@@ -1,0 +1,11 @@
+.supportcontent {
+    padding-top: 150px;
+}
+
+#gatherings, #sunday {
+    font-size: 50px; /* Set font size for the p tags */
+  }
+  
+  #wednesday, #service1, #service2, #service3 {
+    font-size: 30px; /* Set font size for the div tags */
+  }
