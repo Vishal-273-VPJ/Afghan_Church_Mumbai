@@ -1,31 +1,9 @@
+// Video.js
 import React, { useState } from 'react';
 import './SupportVideo.css';
+import videoData from '../../data/videoData'; // Import video data from a separate file
 
 const Video = () => {
-  const videoData = [
-    {
-        title: 'YouTube Video 1',
-        description: 'This is a description of another church video.',
-        date: 'October 10, 2024',
-        src: 'https://www.youtube.com/embed/v0mNYhjUHGo', // Corrected URL
-        isYouTube: true,
-    },
-    {
-        title: 'YouTube Video 2',
-        description: 'This is a description of another church video.',
-        date: 'October 11, 2024',
-        src: 'https://www.youtube.com/embed/v0mNYhjUHGo', // Corrected URL
-        isYouTube: true,
-    },
-    {
-        title: 'Church Video 3',
-        description: 'This is a description of the third church video.',
-        date: 'October 12, 2024',
-        src: 'https://www.youtube.com/embed/v0mNYhjUHGo', // Corrected URL
-        isYouTube: true,
-    },
-  ];
-
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 3; // Number of videos to display per page
 

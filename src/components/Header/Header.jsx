@@ -44,13 +44,19 @@ const Header = () => {
                                 <a className="nav-link" href="sermon">Sermon</a>
                             </li>
                             <li className="nav-item">
+                                <a className="nav-link" href="events">Events</a>
+                            </li>
+                            <li className="nav-item">
                                 <a className="nav-link" href="history">History</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="renovation">Renovation</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="donation">Donation</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="hosanna">Hosanna</a>
+                                <a className="nav-link" href="hosanna">Download</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="contact">Contact Us</a>

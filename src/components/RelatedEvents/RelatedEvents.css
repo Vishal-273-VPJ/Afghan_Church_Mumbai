@@ -1,0 +1,30 @@
+.all-events {
+    width: 30%; /* Set width for the button */
+    height: 50px; /* Set height for the button */
+    background-color: #eee; /* Background color */
+    color: black; /* Text color */
+    border: 0.5px groove #b8b8b8; /* Blue border (change color as needed) */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s, border-color 0.3s; /* Smooth transition for background color and border color */
+    padding: 15px; /* Add padding */
+    font-size: 24px; /* Font size */
+    display: flex; /* Use flexbox to center the text */
+    align-items: center; /* Center the text vertically */
+    justify-content: center; /* Center the text horizontally */
+}
+
+.all-events:hover {
+    background-color: #ddd; /* Change background color on hover */
+}
+
+.related-events .related-event-title  {
+    font-size: 30px;
+}
+
+.related-events .events-list .card-body .date {
+    font-size: 20px;
+}
+
+.related-events .events-list .card-body .place {
+    font-size: 20px;
+}

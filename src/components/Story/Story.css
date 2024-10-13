@@ -1,0 +1,28 @@
+.story {
+    padding-top: 100px;
+    background-color: #eee;
+}
+
+.share-btn-group {
+    position: fixed;
+    top: 30%; /* Positioning within the content */
+    right: 20%; /* Adjust positioning within the content */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 1000;
+}
+
+.share-btn-group .btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.share-btn-group .btn i {
+    color: white;
+}

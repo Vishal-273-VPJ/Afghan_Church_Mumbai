@@ -1,0 +1,27 @@
+.events {
+    padding-top: 100px;
+}
+
+.events .event-title {
+    font-size: 40px;
+}
+
+.events .service-content {
+    font-size: 18px;
+}
+
+.events .services-para{
+    padding-top: none;
+}
+
+.events .find-an-event {
+    font-size: 30px;
+}
+
+.events .events-list .card-body .date {
+    font-size: 20px;
+}
+
+.events .events-list .card-body .place {
+    font-size: 20px;
+}

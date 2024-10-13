@@ -1,51 +1,16 @@
 import React, { useState } from 'react';
 import './Video.css';
+import sermonVideoData from '../../data/sermonVideoData'; // Import the sermon video data
 
 const Video = () => {
-  const videoData = [
-    {
-      title: 'Church Video 1',
-      description: 'This is a description of the first church video.',
-      date: 'October 10, 2024',
-      src: '/videos/sample_video.mp4',
-    },
-    {
-      title: 'YouTube Video 1',
-      description: 'This is a description of another church video.',
-      date: 'October 10, 2024',
-      src: 'https://www.youtube.com/embed/another_video_id',
-      isYouTube: true,
-    },
-    // Add more video objects here
-    {
-      title: 'Church Video 2',
-      description: 'This is a description of the second church video.',
-      date: 'October 11, 2024',
-      src: '/videos/sample_video_2.mp4',
-    },
-    {
-      title: 'YouTube Video 2',
-      description: 'This is a description of another church video.',
-      date: 'October 11, 2024',
-      src: 'https://www.youtube.com/embed/another_video_id_2',
-      isYouTube: true,
-    },
-    {
-      title: 'Church Video 3',
-      description: 'This is a description of the third church video.',
-      date: 'October 12, 2024',
-      src: '/videos/sample_video_3.mp4',
-    },
-  ];
-
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 3; // Number of videos to display per page
 
   // Calculate total pages
-  const totalPages = Math.ceil(videoData.length / itemsPerPage);
+  const totalPages = Math.ceil(sermonVideoData.length / itemsPerPage);
 
   // Get the current items to display
-  const currentVideos = videoData.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage);
+  const currentVideos = sermonVideoData.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage);
 
   // Handle page change
   const handlePageChange = (pageNumber) => {

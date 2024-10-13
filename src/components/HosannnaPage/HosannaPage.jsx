@@ -1,32 +1,18 @@
 import React, { useState } from 'react';
 import './HosannaPage.css';
+import hosannaPageData from '../../data/hosannaPageData'; // Import the data
 
 const HosannaPage = () => {
-    const Data = [
-        { type: 'Newsletter', description: 'Sunday Service Worship Order', date: "October 2024", links: "/pdf/WesleyChurch.pdf" },
-        { type: 'Newsletter', description: 'Sunday Service Worship Order', date: "September 2024", links: "/pdf/WesleyChurch.pdf" },
-        { type: 'Hymnal', description: 'Hymn for Praise', date: "August 2024", links: "/pdf/WesleyChurchHymnal.pdf" },
-        { type: 'Hymnal', description: 'Hymn for Worship', date: "July 2024", links: "/pdf/WesleyChurchHymnal.pdf" },
-        { type: 'Liturgy', description: 'Holy Communion Liturgy', date: "June 2024", links: "/pdf/WesleyChurchLiturgy.pdf" },
-        { type: 'Liturgy', description: 'Baptism Liturgy', date: "May 2024", links: "/pdf/WesleyChurchLiturgy.pdf" },
-        { type: 'Newsletter', description: 'Sunday Service Worship Order', date: "April 2024", links: "/pdf/WesleyChurch.pdf" },
-        { type: 'Newsletter', description: 'Sunday Service Worship Order', date: "March 2024", links: "/pdf/WesleyChurch.pdf" },
-        { type: 'Hymnal', description: 'Worship Hymn', date: "February 2024", links: "/pdf/WesleyChurchHymnal.pdf" },
-        { type: 'Liturgy', description: 'Service Liturgy', date: "January 2024", links: "/pdf/WesleyChurchLiturgy.pdf" },
-        { type: 'Newsletter', description: 'Sunday Service Worship Order', date: "December 2023", links: "/pdf/WesleyChurch.pdf" },
-    ];
-
     const [currentPage, setCurrentPage] = useState(1);
     const [filter, setFilter] = useState('All'); // Filter state
     const itemsPerPage = 5; // Number of items to display per page
 
     // Calculate total pages
-    const totalPages = Math.ceil(Data.length / itemsPerPage);
+    const filteredData = hosannaPageData.filter(item => filter === 'All' || item.type === filter);
+    const totalPages = Math.ceil(filteredData.length / itemsPerPage);
 
     // Get the current items to display based on filter
-    const currentItems = Data
-        .filter(item => filter === 'All' || item.type === filter)
-        .slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage);
+    const currentItems = filteredData.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage);
 
     // Handle page change
     const handlePageChange = (pageNumber) => {
@@ -74,6 +60,7 @@ const HosannaPage = () => {
                         </div>
                     </div>
                 ))}
+
                 {/* Pagination */}
                 {totalPages > 1 && (
                     <nav>

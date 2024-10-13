@@ -1,15 +1,18 @@
-import React from 'react'
+import React from 'react';
 import "./App.css";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Donation from './pages/Donation';
 import Nopage from './pages/Nopage';
 import ContactPage from './pages/ContactPage';
-import Leadership from './pages/Leadership'
+import Leadership from './pages/Leadership';
 import Hosanna from './pages/Hosanna';
-import History from './pages/History'
+import History from './pages/History';
 import Sermon from './pages/Sermon';
 import SupportPage from './pages/SupportPage';
+import Events from './pages/Events';
+import EventDescription from './pages/EventDescription';
+import RenovationStory from './pages/RenovationStory';
 
 const App = () => {
   return (
@@ -24,11 +27,14 @@ const App = () => {
           <Route path='/history' element={<History />} />
           <Route path='/sermon' element={<Sermon />} />
           <Route path='/services' element={<SupportPage />} />
+          <Route path='/events' element={<Events />} />
+          <Route path='/event/:id(\\d+)' element={<EventDescription />} /> {/* Only numbers for id */}
+          <Route path='/renovation' element={<RenovationStory />} />
           <Route path='*' element={<Nopage />} />
         </Routes>
       </BrowserRouter>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
