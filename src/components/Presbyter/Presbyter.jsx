@@ -7,7 +7,7 @@ const Presbyter = () => {
         <div className="container pt-5">
             <div className="row">
                 <div className="col-md-6">
-                    <img src="banner2.jpg" alt="pastor" className='pastor'/>
+                    <img src="pastor.jpg" alt="pastor" className='pastor'/>
                 </div>
                 <div className="col-md-6 presbyter-right">
                     <span className="incharge">

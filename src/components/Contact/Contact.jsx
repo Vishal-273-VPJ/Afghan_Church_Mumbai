@@ -9,14 +9,14 @@ const Contact = () => {
                 <div className="col-md-6 col-lg-6">
                     <h2 className='mt-5 mb-4'>Contact Us</h2>
                     <div className="address mb-4">
-                        <pre>St. John The Evangelist Church,</pre>
-                        <pre>Duxbury Lane, Colaba Causeway,</pre>
-                        <pre>Navy Nagar, Colaba,</pre>
+                        <pre>St. John The Evangelist Church CNI (The Afghan War Memorial Church),</pre>
+                        <pre>Duxbury Lane,</pre>
+                        <pre>Colaba, Navy Nagar,</pre>
                         <pre>Mumbai - 400005,</pre>
                         <pre>Maharashtra, India.</pre>
                     </div>
-                    <p className='email mb-4'>abc@email.com</p>
-                    <p className='number mb-4'>1234 56789 0</p>
+                    <p className='email mb-4'>pcafghanchurch@gmail.com</p>
+                    <p className='number mb-4'>+91-8879405069</p>
                     <div className="social-icons"> {/* Centering container */}
                         <span>
                             <a href="https://www.facebook.com/yourprofile" target="_blank" rel="noopener noreferrer">

@@ -37,15 +37,12 @@ const EventsPage = () => {
 
     return (
         <div className='events'>
-            <p className="pt-5 pb-0 mb-0 event-title text-center">Events at Afghan Church</p>
+            <p className="pt-5 pb-0 mb-0 event-title text-center">Events at St. John The Evangelist Church</p>
             <div className="text-center">
                 <span className="service-content px-5">
-                    Special services, concerts, lectures, events for families and more – there’s something for everyone at the Abbey. 
+                    Special services, concerts, lectures, events for families and more – there’s something for everyone here! 
                     Many of our events are free and open to anyone.
                 </span>
-                <p className="service-content px-5">
-                    Our in-person events are held at Westminster Abbey, London. Our online events are available worldwide.
-                </p>
             </div>
             <div>
                 <p className="find-an-event text-center">Find An Event</p>

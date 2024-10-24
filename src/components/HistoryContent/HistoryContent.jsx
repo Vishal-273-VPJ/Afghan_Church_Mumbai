@@ -55,75 +55,16 @@ const HistoryContent = () => {
   return (
     <div className='historyContent d-flex justify-content-center align-items-center'>
         <div className="col-md-6">
-            <h3 className='pt-5 pb-2'>History</h3>
-            <p className='font-weight-normal title-text'>History of Afghan Church</p>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
-                printer took a galley of type and scrambled it to make a type specimen book. It has survived not 
-                only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
-                and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            <h1 className='pt-5 pb-2'>History and Architecture of the Church</h1>
+            <p>St. John The Evangelist Church, a.k.a The Afghan War Memorial Church, known simply as the "Afghan Church" was the first Anglican church in the Navy Nagar district and began as a small thatched chapel a kilometer south in what was then known as the "Sick Bungalows" (now the INHS Asvini). Later, this Church was built with the hope that the church's spire would serve as a useful landmark for ships entering the harbour.
             </p>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
-                printer took a galley of type and scrambled it to make a type specimen book. It has survived not 
-                only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
-                and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            <p>The church is the principal memorial to the casualties of the First Anglo-Afghan War (1838-1843). Many of the casualties came from the East India Company's Bombay Army and Bengal Army. Plans for the quintessentially English Gothic Revival architecture of the church were designed in 1847 by English civil engineer and Gothic Revival architect, Henry Conybeare. The foundation stone of the church was laid on the 4 December 1847 by then-Governor of Bombay, Sir George Russell Clerk.
             </p>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
-                printer took a galley of type and scrambled it to make a type specimen book. It has survived not 
-                only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
-                and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            <p>Renowned Victorian architect William Butterfield designed the decorative tile Reredos (The ornamental screen covering the wall at the back of the altar), the elegant metal screen inside at the entrance to the Nave, the exquisite wooden Choir stalls, the Chancel furniture and the pews. All except the first 6 rows of pews were provided with slots as gunrests. The imposing edifice designed in the English Gothic Revival architecture style was constructed using locally available BUFF-COLOURED BASALT (PORBUNDER STONE). Inside, it is known for its wide gothic arches and beautiful stained glass windows. The chapel has a nave and aisle with a chancel 50 ft (15 m) in length and 27 ft (7 m) in width. The entire floor of the Nave and Aisles is in unpolished stone slabs, while the original Encaustic floor tiles (from England) of the Chancel was replaced in 1902 with White, Grey and Black marble laid in a geometric pattern to match the Sanctuary Floor (laid in 1882).
             </p>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
-                printer took a galley of type and scrambled it to make a type specimen book. It has survived not 
-                only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
-                and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            <p>The Church was consecrated on 7th January 1858 by Bishop Harding and is dedicated to St. John The Evangelist.
             </p>
-            <h2>St Edward's Church</h2>
-            <img src="church3.jpg" alt="church 3" className='img-fluid w-100' />
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
-                printer took a galley of type and scrambled it to make a type specimen book. It has survived not 
-                only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
-                and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-            </p>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
-                printer took a galley of type and scrambled it to make a type specimen book. It has survived not 
-                only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
-                and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-            </p>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
-                printer took a galley of type and scrambled it to make a type specimen book. It has survived not 
-                only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
-                and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-            </p>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
-                printer took a galley of type and scrambled it to make a type specimen book. It has survived not 
-                only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
-                and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-            </p>
-            <h3>Further reading</h3>
-            <div className='pb-2'><a href="google.com" target="_blank" >Treasures of Westminster Abbey by Tony Trowles,</a> revised edition 2018</div>
-            <div className='pb-2'><a href="google.com" target="_blank" >Treasures of Westminster Abbey by Tony Trowles,</a> revised edition 2018</div>
-            <div className='pb-2'><a href="google.com" target="_blank" >Treasures of Westminster Abbey by Tony Trowles,</a> revised edition 2018</div>
-            <div className='pb-2'><a href="google.com" target="_blank" >Treasures of Westminster Abbey by Tony Trowles,</a> revised edition 2018</div>
-            <h5>TAGS</h5>
-            <div ref={furtherReadingRef}className="pb-2">
-                <a href="google.com" target="_blank">Architecture</a> | <a href="google.com" target="_blank">Chirstianity</a> | <a href="google.com" target="_blank">History</a>
-            </div>
+            <img src="banner1.jpg" alt="church 3" className='img-fluid w-100' />
         </div>
         {isShareVisible && (
             <div className="share-btn-group">

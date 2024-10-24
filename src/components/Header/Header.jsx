@@ -14,7 +14,7 @@ const Header = () => {
                     {/* Navbar Logo */}
                     <a className="navbar-brand" href="/">
                         <img src='/logo.png' alt="Logo" className="logo-img" />
-                        <span className="logo-text">Afghan Church</span>
+                        <span className="logo-text">St. John The Evangelist Church</span>
                     </a>
 
                     {/* Toggle button for mobile view */}
@@ -41,7 +41,7 @@ const Header = () => {
                                 <a className="nav-link" href="leadership">Leadership</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="sermon">Sermon</a>
+                                <a className="nav-link" href="sermon">Meditation</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="events">Events</a>

@@ -28,8 +28,7 @@ const HosannaPage = () => {
     return (
         <div className='hosanna pb-5'>
             <h3 className="pt-5 pb-3 hosanna-title text-center">Church Service and Other Materials</h3>
-            <p className='text-center news'>Afghan Church Newsletter</p>
-
+            {/*<p className='text-center news'>Afghan Church Newsletter</p>*/}
             {/* Filter Buttons */}
             <div className="text-center mb-4">
                 <button className="btn btn-secondary mx-2" onClick={() => handleFilterChange('All')}>All</button>

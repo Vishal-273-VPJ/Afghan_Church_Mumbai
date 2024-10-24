@@ -14,7 +14,7 @@ const Banner2 = () => {
         <div className="col-md-6 banner-text">
           <h1 className='mb-4 mx-5'>Our Doors are Open</h1>
           <p className='mx-5'>
-          Join us every Sunday morning at 8:45 AM for our uplifting worship service at Afghan Church. We invite you to be part of our community as we come together to celebrate faith, share in fellowship, and inspire one another. Whether you're a longtime member or new to our church, we look forward to welcoming you!
+          Join us every Sunday morning at 8:45 AM for our uplifting worship service. We invite you to be part of our community as we come together to celebrate the Holy Sacraments, share in fellowship, and inspire one another. We look forward to welcoming you!
           </p>
         </div>
       </div>
