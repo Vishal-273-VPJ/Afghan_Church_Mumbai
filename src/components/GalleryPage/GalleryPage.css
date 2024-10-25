@@ -1,0 +1,14 @@
+.galleryPage {
+    padding-top: 100px;
+    background-color: #eee;
+}
+
+/* GalleryPage.css */
+.galleryPage img {
+    height: 500px; /* Set your desired constant height */
+    width: auto;   /* Automatically adjusts the width to maintain aspect ratio */
+    object-fit: cover; /* Crops the image to fill the container without distortion */
+    display: block;
+    margin: 0 auto;
+  }
+  

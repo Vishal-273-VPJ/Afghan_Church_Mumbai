@@ -13,6 +13,7 @@ import SupportPage from './pages/SupportPage';
 import Events from './pages/Events';
 import EventDescription from './pages/EventDescription';
 import RenovationStory from './pages/RenovationStory';
+import Gallery from './pages/Gallery';
 
 const App = () => {
   return (
@@ -27,8 +28,9 @@ const App = () => {
           <Route path='/history' element={<History />} />
           <Route path='/sermon' element={<Sermon />} />
           <Route path='/services' element={<SupportPage />} />
+          <Route path='/gallery' element={<Gallery />} />
           <Route path='/events' element={<Events />} />
-          <Route path='/event/:id(\\d+)' element={<EventDescription />} /> {/* Only numbers for id */}
+          <Route path='/event/:id' element={<EventDescription />} /> {/* Only numbers for id */}
           <Route path='/renovation' element={<RenovationStory />} />
           <Route path='*' element={<Nopage />} />
         </Routes>

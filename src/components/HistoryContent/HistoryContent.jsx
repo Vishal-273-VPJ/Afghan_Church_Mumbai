@@ -66,23 +66,6 @@ const HistoryContent = () => {
             </p>
             <img src="banner1.jpg" alt="church 3" className='img-fluid w-100' />
         </div>
-        {isShareVisible && (
-            <div className="share-btn-group">
-                <p>SHARE</p>
-                <button className="btn btn-primary" onClick={shareOnTwitter}>
-                    <i className="fab fa-twitter"></i>
-                </button>
-                <button className="btn btn-primary" onClick={shareOnFacebook}>
-                    <i className="fab fa-facebook"></i>
-                </button>
-                <button className="btn btn-primary" onClick={shareOnInstagram}>
-                    <i className="fas fa-instagram"></i>
-                </button>
-                <button className="btn btn-primary" onClick={shareByEmail}>
-                    <i className="fas fa-envelope"></i>
-                </button>
-            </div>
-        )}
     </div>
   )
 }

@@ -1,3 +1,7 @@
 footer p {
     font-size: 20px; /* Adjust this value to make text smaller */
 }
+
+footer .container {
+    margin-top: 0;
+}

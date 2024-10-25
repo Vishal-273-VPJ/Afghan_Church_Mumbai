@@ -33,7 +33,7 @@ const HosannaPage = () => {
             <div className="text-center mb-4">
                 <button className="btn btn-secondary mx-2" onClick={() => handleFilterChange('All')}>All</button>
                 <button className="btn btn-secondary mx-2" onClick={() => handleFilterChange('Newsletter')}>Newsletter</button>
-                <button className="btn btn-secondary mx-2" onClick={() => handleFilterChange('Hymnal')}>Hymnal</button>
+                <button className="btn btn-secondary mx-2" onClick={() => handleFilterChange('Order_of_service')}>Order of Service</button>
                 <button className="btn btn-secondary mx-2" onClick={() => handleFilterChange('Liturgy')}>Liturgy</button>
             </div>
 

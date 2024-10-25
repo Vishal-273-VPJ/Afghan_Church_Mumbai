@@ -19,6 +19,7 @@ const Video = () => {
 
   return (
     <div className="video-section container pb-5">
+      <h1 className='text-center meditation_daily py-3'>Let's join the Daily meditation and Prayers</h1>
       {currentVideos.map((video, index) => (
         <div className="row d-flex justify-content-center align-items-center mb-5" key={index}>
           <div className="col-md-8 video-block">

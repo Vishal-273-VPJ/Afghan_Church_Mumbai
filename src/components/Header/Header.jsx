@@ -1,10 +1,21 @@
 import React, { useState } from 'react';
+import { useLocation } from 'react-router-dom'; // Import useLocation
 import './Header.css';
 
 const Header = () => {
     const [menuToggle, setMenuToggle] = useState(false);
+    const location = useLocation(); // Get the current location
+
     const toggleMenu = () => {
         setMenuToggle((prevToggle) => !prevToggle);
+    };
+
+    const handleLink = (path) => {
+        // Check if the current path is the gallery page
+        if (location.pathname === '/gallery' && path === '/gallery/') {
+            return '/gallery'; // Prevent adding the trailing slash
+        }
+        return path; // Return the original path otherwise
     };
 
     return (
@@ -35,31 +46,34 @@ const Header = () => {
                                 <a className="nav-link" href="/">Home</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="services">Services</a>
+                                <a className="nav-link" href={handleLink("/services")}>Services</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="leadership">Leadership</a>
+                                <a className="nav-link" href={handleLink("/leadership")}>Leadership</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="sermon">Meditation</a>
+                                <a className="nav-link" href={handleLink("/sermon")}>Meditation</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="events">Events</a>
+                                <a className="nav-link" href={handleLink("/events")}>Events</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="history">History</a>
+                                <a className="nav-link" href={handleLink("/history")}>History</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="renovation">Renovation</a>
+                                <a className="nav-link" href={handleLink("/renovation")}>Renovation</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="donation">Donation</a>
+                                <a className="nav-link" href={handleLink("/gallery")}>Gallery</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="hosanna">Download</a>
+                                <a className="nav-link" href={handleLink("/donation")}>Donation</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="contact">Contact Us</a>
+                                <a className="nav-link" href={handleLink("/hosanna")}>Download</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href={handleLink("/contact")}>Contact Us</a>
                             </li>
                         </ul>
                     </div>

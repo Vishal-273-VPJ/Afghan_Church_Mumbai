@@ -81,23 +81,6 @@ const Story = () => {
                 and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
             </p>
         </div>
-        {isShareVisible && (
-            <div className="share-btn-group">
-                <p>SHARE</p>
-                <button className="btn btn-primary" onClick={shareOnTwitter}>
-                    <i class="fa-brands fa-twitter"></i>
-                </button>
-                <button className="btn btn-primary" onClick={shareOnFacebook}>
-                    <i class="fa-brands fa-facebook"></i>
-                </button>
-                <button className="btn btn-primary" onClick={shareOnInstagram}>
-                    <i class="fa-brands fa-instagram"></i>
-                </button>
-                <button className="btn btn-primary" onClick={shareByEmail}>
-                    <i class="fas fa-envelope"></i>
-                </button>
-            </div>
-        )}
     </div>
   )
 }

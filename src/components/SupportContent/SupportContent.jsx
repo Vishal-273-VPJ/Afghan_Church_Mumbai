@@ -4,12 +4,15 @@ import './SupportContent.css';
 const SupportContent = () => {
   return (
     <div className='supportcontent'>
-      <p id='gatherings' className='text-center'>
+      <h4 id='liturgical' className='text-center'>
+        Lets's join the Liturgical Service
+      </h4>
+      <h1 id='gatherings' className='text-center pb-3'>
         Our Gatherings
-      </p>
-      <div id='wednesday' className='text-center pb-3'>
+      </h1>
+      <h3 id='wednesday' className='text-center pb-3'>
         Worship With Us
-      </div>
+      </h3>
       <p id='sunday' className='text-center'>
         Sunday Service
       </p>

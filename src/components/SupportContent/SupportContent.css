@@ -2,10 +2,24 @@
     padding-top: 150px;
 }
 
-#gatherings, #sunday {
-    font-size: 50px; /* Set font size for the p tags */
+#sunday {
+    font-size: 40px; /* Set font size for the p tags */
   }
   
-  #wednesday, #service1, #service2, #service3 {
+#service1, #service2, #service3 {
     font-size: 30px; /* Set font size for the div tags */
+  }
+
+  #gatherings {
+    font-size: 70px;
+    letter-spacing: 10px;
+    color: #ec5300;
+    outline: black;
+  }
+
+  #wednesday {
+    font-size: 55px;
+    color: #ec5300;
+    letter-spacing: 5px;
+    outline-color: black;
   }
