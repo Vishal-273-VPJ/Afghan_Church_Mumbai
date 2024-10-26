@@ -18,11 +18,14 @@ const Contact = () => {
                     <p className='email mb-4'>pcafghanchurch@gmail.com</p>
                     <p className='number mb-4'>+91-8879405069</p>
                     <div className="social-icons"> {/* Centering container */}
-                        <span>
-                            <a href="https://www.facebook.com/yourprofile" target="_blank" rel="noopener noreferrer">
+                        <p>
+                            <a href="https://www.facebook.com/afghanchurch.colaba.31" target="_blank" rel="noopener noreferrer" className="mx-2">
                                 <i className="fab fa-facebook" style={{ fontSize: '30px' }}></i>
                             </a>
-                        </span>
+                            <a href="https://www.instagram.com/afghanchurchcolaba" target="_blank" rel="noopener noreferrer" className="mx-2">
+                                <i className="fab fa-instagram" style={{ fontSize: '30px' }}></i>
+                            </a>
+                        </p>
                     </div>
                 </div>
                 <div className="col-md-6 col-lg-6">
