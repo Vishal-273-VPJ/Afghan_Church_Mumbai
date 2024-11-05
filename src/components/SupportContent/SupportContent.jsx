@@ -34,7 +34,7 @@ const SupportContent = () => {
                 Online Liturgical Service
               </h5>
               <div id='service3' className='text-center pb-3'>
-                8:00 am: Every Saturday
+                8:00 am: Every Saturday (Coming Soon)
               </div>
             </div>
           </div>
