@@ -16,25 +16,25 @@ const SupportContent = () => {
               <h3 id='wednesday' className='card-title text-center'>
                 Worship With Us
               </h3>
-              <p id='sunday' className='text-center'>Sunday Service</p>
+              <h5 id='online-service' className='card-title text-center'>Holy Communion Service</h5>
               <div id='service1' className='text-center pb-3'>
-                8:45 am: Holy Communion Service
+                8:45 am: Every Sunday
               </div>
 
               {/* Visiting Hours Section */}
-              <h3 id='visiting-hours' className='card-title text-center'>
+              <h5 id='visiting-hours' className='card-title text-center'>
                 Visiting Hours
-              </h3>
+              </h5>
               <div id='service2' className='text-center pb-3'>
                 9 am - 5 pm: Every Day
               </div>
 
               {/* Online Liturgical Service Section */}
-              <h3 id='online-service' className='card-title text-center'>
+              <h5 id='online-service' className='card-title text-center'>
                 Online Liturgical Service
-              </h3>
+              </h5>
               <div id='service3' className='text-center pb-3'>
-                8:00 am: Saturday
+                8:00 am: Every Saturday (Coming Soon)
               </div>
             </div>
           </div>
