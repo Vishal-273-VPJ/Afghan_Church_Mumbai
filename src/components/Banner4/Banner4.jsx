@@ -1,13 +1,14 @@
 import React from 'react';
 import './Banner4.css'; // Custom styles (if any)
-import hosannaData from '../../data/hosannaPageData'; // Import your data
+/*import hosannaData from '../../data/hosannaPageData';*/
 
 const Banner4 = () => {
   // Filter and sort the data to get the latest Order_of_service entry
+  /*
   const latestOrderOfService = hosannaData
-    .filter(item => item.type === 'Order_of_service') // Filter by type
-    .sort((a, b) => new Date(b.date) - new Date(a.date))[0]; // Sort by date and get the latest one
-
+      .filter(item => item.type === 'Order_of_service')
+      .sort((a, b) => new Date(b.date) - new Date(a.date))[0];
+  */
   return (
     <div className="container mt-5 py-4 banner4">
       <div className="row align-items-center">
@@ -18,21 +19,17 @@ const Banner4 = () => {
         
         {/* Column for the latest Order of Service */}
         <div className="col-md-6">
-          {latestOrderOfService ? ( // Check if there is a latest entry
             <>
-              <h2 className='mb-4'>{latestOrderOfService.description}</h2>
-              <p>{latestOrderOfService.date}</p>
+              <h2 className='mb-4'>Holy Communion Liturgy</h2>
+              <p>June 2024</p>
               <a 
-                href={latestOrderOfService.links} 
+                href="/pdf/The_Lord's_Supper.pdf"
                 className='btn btn-primary' // Add your desired button styles
                 download // This attribute prompts a download
               >
                 Download
               </a>
             </>
-          ) : (
-            <h2>No Order of Service available</h2> // Fallback if no data is available
-          )}
         </div>
       </div>
     </div>

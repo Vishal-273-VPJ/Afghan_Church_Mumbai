@@ -10,7 +10,10 @@ const Footer = () => {
             <i className="fab fa-facebook"></i>
           </a>
           <a href="https://www.instagram.com/afghanchurchcolaba" target="_blank" rel="noopener noreferrer" className="text-light mx-2">
-            <i className="fab fa-instagram"></i> {/* Instagram icon */}
+            <i className="fab fa-instagram"></i>
+          </a>
+          <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" className="text-light mx-2">
+            <i className="fab fa-youtube"></i>
           </a>
         </p>
         <p>&copy; {new Date().getFullYear()} Afghan Church. All rights reserved.</p> {/* Optional: You could wrap this in <small> for smaller text */}

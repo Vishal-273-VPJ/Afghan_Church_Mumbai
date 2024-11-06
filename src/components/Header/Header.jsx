@@ -70,7 +70,7 @@ const Header = () => {
                                 <a className="nav-link" href={handleLink("/donation")}>Donation</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href={handleLink("/hosanna")}>Download</a>
+                                <a className="nav-link" href={handleLink("/downloads")}>Download</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href={handleLink("/contact")}>Contact Us</a>

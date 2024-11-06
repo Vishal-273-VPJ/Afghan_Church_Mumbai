@@ -4,6 +4,7 @@
     position: relative; /* Keep it in the flow of the document */
     z-index: 1; /* Ensure it stays above other content */
     padding-top: 100px; /* Add padding to push content below navbar */
+    padding-bottom: 90px;
 }
 
 .hosanna-title {

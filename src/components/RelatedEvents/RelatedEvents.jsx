@@ -24,7 +24,7 @@ const RelatedEvents = () => {
   return (
     <div className='related-events'>
       <div>
-        <p className="related-event-title text-center">Find An Event</p>
+        <p className="related-event-title text-center pb-4">Find An Event</p>
       </div>
       <div className="events-list container pb-5">
         <div className="row g-5"> {/* Larger gutter spacing */}

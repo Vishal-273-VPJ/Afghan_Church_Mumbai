@@ -25,8 +25,9 @@ const EventsDescriptionPage = () => {
                     <p className="pb-3">
                         {event.description || "No description available."}
                     </p>
-                    <p className="pb-3"><strong>Date:</strong> {event.date}</p>
-                    <p className="pb-1"><strong>Place:</strong> {event.place}</p>
+                    <p className="pb-1"><strong>Date:</strong> {event.date}</p>
+                    <p className="pb-1"><strong>Time:</strong> {event.time}</p>
+                    <p className="pb-3"><strong>Place:</strong> {event.place}</p>
                 </div>
             </div>
         </div>

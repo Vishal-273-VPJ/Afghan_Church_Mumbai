@@ -26,7 +26,7 @@ const HosannaPage = () => {
     };
 
     return (
-        <div className='hosanna pb-5'>
+        <div className='hosanna'>
             <h3 className="pt-5 pb-3 hosanna-title text-center">Church Service and Other Materials</h3>
             {/*<p className='text-center news'>Afghan Church Newsletter</p>*/}
             {/* Filter Buttons */}

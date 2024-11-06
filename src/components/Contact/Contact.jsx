@@ -25,6 +25,9 @@ const Contact = () => {
                             <a href="https://www.instagram.com/afghanchurchcolaba" target="_blank" rel="noopener noreferrer" className="mx-2">
                                 <i className="fab fa-instagram" style={{ fontSize: '30px' }}></i>
                             </a>
+                            <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" className="mx-2">
+                                <i className="fab fa-youtube" style={{ fontSize: '30px' }}></i>
+                            </a>
                         </p>
                     </div>
                 </div>
