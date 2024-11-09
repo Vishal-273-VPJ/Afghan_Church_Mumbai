@@ -41,7 +41,7 @@ const SupportContent = () => {
         </div>
       </div>
       <h4 id='liturgical' className='text-center'>
-        Lets's join the Liturgical Service
+        Lets's join the Liturgical Service (Coming Soon)
       </h4>
     </div>
   );
