@@ -39,7 +39,7 @@ const EventsPage = () => {
         <div className='events'>
             <p className="pt-5 pb-0 mb-0 event-title text-center">Events at St. John The Evangelist Church</p>
             <div className="text-center">
-                <span className="service-content px-5">
+                <span className="service-content">
                     Special services, concerts, lectures, events for families and more – there’s something for everyone here! 
                     Many of our events are free and open to anyone.
                 </span>
@@ -47,7 +47,7 @@ const EventsPage = () => {
             <div>
                 <p className="find-an-event text-center">Find An Event</p>
             </div>
-            <div className="text-center mb-3">
+            <div className="text-center events-list-tab mb-3">
                 <button onClick={() => filterEvents('All Events')} className="btn btn-outline-primary mx-1">All Events</button>
                 <button onClick={() => filterEvents('Special Services')} className="btn btn-outline-primary mx-1">Special Services</button>
                 <button onClick={() => filterEvents('Choral and Music')} className="btn btn-outline-primary mx-1">Choral and Music</button>

@@ -60,7 +60,7 @@
     }
 
     .meditation_daily {
-        font-size: 40px; /* Smaller font size for readability */
+        font-size: 30px; /* Smaller font size for readability */
     }
 }
 
@@ -88,7 +88,7 @@
     }
 
     .meditation_daily {
-        font-size: 35px; /* Further reduce font size */
+        font-size: 20px; /* Further reduce font size */
     }
 }
 
@@ -116,6 +116,6 @@
     }
 
     .meditation_daily {
-        font-size: 30px;
+        font-size: 10px;
     }
 }

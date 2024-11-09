@@ -22,3 +22,9 @@
     background-color: #ffffff; /* White background for the row */
     padding: 20px; /* Padding for the row */
 }
+
+@media (max-width: 480px) {
+    .hosanna .hossana-button button {
+        margin-bottom: 20px;
+    }
+}

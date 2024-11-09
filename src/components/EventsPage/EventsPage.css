@@ -41,6 +41,7 @@
     .events .service-content {
         font-size: 16px; /* Reduce font size for readability */
         text-align: center; /* Ensure center alignment on smaller screens */
+        text-wrap: wrap;
     }
 
     .events .find-an-event {
@@ -95,6 +96,10 @@
 
     .events .find-an-event {
         font-size: 20px;
+    }
+
+    .events .events-list-tab button {
+        margin-bottom: 20px;
     }
 
     .events .events-list .card-body .date,
