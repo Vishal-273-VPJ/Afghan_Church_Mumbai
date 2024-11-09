@@ -5,7 +5,7 @@ const Donation = () => {
   return (
     <div className="donation">
       <div className='container mt-5 pb-5'>
-        <h1 className='mb-4'>Tithes/Donations/Subscriptions</h1>
+        <h1 className='mb-4 donation-title'>Tithes / Donations / Subscriptions</h1>
         <div className="row">
           {/* Donation Details Section */}
           <div className="col-md-6">

@@ -24,7 +24,7 @@
 /* Responsive adjustments for screens 1400px and wider */
 @media (max-width: 1400px) {
     .banner {
-        padding-top: 80px; /* Reduce top padding */
+        padding-top: 100px; /* Reduce top padding */
     }
 
     .text-center {
@@ -32,14 +32,17 @@
     }
 
     .banner-image {
-        height: 600px; /* Reduce height of the image */
+        width: 100%;
+        height: inherit;
+        margin-bottom: 20px;
+        display: block;
     }
 }
 
 /* Additional adjustments for smaller screens, starting at 1024px */
 @media (max-width: 1024px) {
     .banner {
-        padding-top: 60px;
+        padding-top: 100px;
     }
 
     .text-center {
@@ -47,14 +50,17 @@
     }
 
     .banner-image {
-        height: 500px;
+        width: 100%;
+        height: inherit;
+        margin-bottom: 20px;
+        display: block;
     }
 }
 
 /* For screens 768px and smaller */
 @media (max-width: 768px) {
     .banner {
-        padding-top: 40px;
+        padding-top: 100px;
     }
 
     .text-center {
@@ -62,14 +68,17 @@
     }
 
     .banner-image {
-        height: 400px;
+        width: 100%;
+        height: inherit;
+        margin-bottom: 20px;
+        display: block;
     }
 }
 
 /* For screens 480px and smaller */
 @media (max-width: 480px) {
     .banner {
-        padding-top: 30px;
+        padding-top: 100px;
     }
 
     .text-center {
@@ -77,6 +86,9 @@
     }
 
     .banner-image {
-        height: 300px;
+        width: 100%;
+        height: inherit;
+        margin-bottom: 20px;
+        display: block;
     }
 }

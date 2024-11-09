@@ -53,6 +53,14 @@
     .donation-text {
         font-size: 13px; /* Further reduce font size */
     }
+
+    .donation-title{
+        text-wrap: wrap;
+    }
+
+    .donation .donation-text p {
+        text-wrap: wrap;
+    }
 }
 
 /* Responsive styling for very small screens (max-width: 480px) */

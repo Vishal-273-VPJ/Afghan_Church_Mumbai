@@ -43,7 +43,7 @@
 /* Responsive styling for tablets and smaller screens */
 @media (max-width: 1024px) {
     .video-section {
-        padding-top: 80px;
+        padding-top: 100px;
         padding-bottom: 300px; /* Reduce padding for smaller screens */
     }
 
@@ -67,7 +67,7 @@
 /* Responsive styling for mobile screens */
 @media (max-width: 768px) {
     .video-section {
-        padding-top: 60px;
+        padding-top: 100px;
         padding-bottom: 200px;
     }
 
@@ -95,7 +95,7 @@
 /* Responsive styling for very small screens */
 @media (max-width: 480px) {
     .video-section {
-        padding-top: 40px;
+        padding-top: 100px;
         padding-bottom: 150px;
     }
 
