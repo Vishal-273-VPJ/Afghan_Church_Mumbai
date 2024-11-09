@@ -18,7 +18,7 @@ const Banner4 = () => {
         </div>
         
         {/* Column for the latest Order of Service */}
-        <div className="col-md-6">
+        <div className="col-md-6 banner4-download">
             <>
               <h2 className='mb-4'>Holy Communion Liturgy</h2>
               <p>June 2024</p>

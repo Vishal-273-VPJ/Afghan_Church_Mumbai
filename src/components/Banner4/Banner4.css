@@ -1,3 +1,16 @@
 .banner4 {
     background-color: #eee;
 }
+@media (max-width: 780px) {
+    .banner4 .banner4-download h2 {
+        text-align: center;
+    }
+
+    .banner4 .banner4-download p {
+        text-align: center;
+    }
+    .banner4 .banner4-download a {
+        display: flex;
+        justify-content: center;
+    }
+}
