@@ -1,25 +1,82 @@
+/* Base styling for banner */
 .banner {
-    background-color: #fff; /* Background color */
-    color: rgb(13, 26, 38); /* Text color */
-    text-align: center; /* Center align the text */
-    font-size: 2.5em; /* Adjust font size as needed */
-    position: relative; /* Keep it in the flow of the document */
-    z-index: 5; /* Ensure it stays above other content */
-    width: 100%; /* Take 100% width of the container */
-    padding-top: 100px; /* Add padding to push content below navbar */
-  }
-  
-  .banner-image {
-    width: 100%; /* Make the image take full width of the banner */
-    height: 750px; /* Maintain aspect ratio */
-    /*margin-left: auto;*/
-    /*margin-right: auto;*/
-    margin-bottom: 20px; /* Space between the image and the text */
-    display: block; /* Ensure it behaves like a block element */
-  }
-  
-  /* Optional: Style for the text */
-  .text-center {
+    background-color: #fff;
+    color: rgb(13, 26, 38);
+    text-align: center;
+    font-size: 2.5em;
+    position: relative;
+    z-index: 5;
+    width: 100%;
+    padding-top: 100px;
+}
+
+.banner-image {
+    width: 100%;
+    height: 750px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.text-center {
     font-size: 4.5rem;
-  }
-  
+}
+
+/* Responsive adjustments for screens 1400px and wider */
+@media (max-width: 1400px) {
+    .banner {
+        padding-top: 80px; /* Reduce top padding */
+    }
+
+    .text-center {
+        font-size: 3.5rem; /* Reduce font size of text */
+    }
+
+    .banner-image {
+        height: 600px; /* Reduce height of the image */
+    }
+}
+
+/* Additional adjustments for smaller screens, starting at 1024px */
+@media (max-width: 1024px) {
+    .banner {
+        padding-top: 60px;
+    }
+
+    .text-center {
+        font-size: 2.8rem;
+    }
+
+    .banner-image {
+        height: 500px;
+    }
+}
+
+/* For screens 768px and smaller */
+@media (max-width: 768px) {
+    .banner {
+        padding-top: 40px;
+    }
+
+    .text-center {
+        font-size: 2.5rem;
+    }
+
+    .banner-image {
+        height: 400px;
+    }
+}
+
+/* For screens 480px and smaller */
+@media (max-width: 480px) {
+    .banner {
+        padding-top: 30px;
+    }
+
+    .text-center {
+        font-size: 2rem;
+    }
+
+    .banner-image {
+        height: 300px;
+    }
+}

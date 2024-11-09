@@ -1,3 +1,4 @@
+/* Base styling */
 .events {
     padding-top: 100px;
 }
@@ -8,10 +9,11 @@
 
 .events .service-content {
     font-size: 18px;
+    text-align: center; /* Center-align text */
 }
 
-.events .services-para{
-    padding-top: none;
+.events .services-para {
+    padding-top: 0; /* Changed 'none' to 0 for valid CSS */
 }
 
 .events .find-an-event {
@@ -24,4 +26,79 @@
 
 .events .events-list .card-body .place {
     font-size: 20px;
+}
+
+/* Responsive styling for tablets and smaller screens */
+@media (max-width: 1024px) {
+    .events {
+        padding-top: 80px;
+    }
+
+    .events .event-title {
+        font-size: 32px; /* Slightly reduce font size */
+    }
+
+    .events .service-content {
+        font-size: 16px; /* Reduce font size for readability */
+        text-align: center; /* Ensure center alignment on smaller screens */
+    }
+
+    .events .find-an-event {
+        font-size: 26px; /* Adjust font size */
+    }
+
+    .events .events-list .card-body .date,
+    .events .events-list .card-body .place {
+        font-size: 18px; /* Smaller font for better fit */
+    }
+}
+
+/* Responsive styling for mobile screens */
+@media (max-width: 768px) {
+    .events {
+        padding-top: 60px;
+    }
+
+    .events .event-title {
+        font-size: 28px; /* Further reduce font size */
+    }
+
+    .events .service-content {
+        font-size: 15px;
+        text-align: center; /* Maintain center alignment */
+    }
+
+    .events .find-an-event {
+        font-size: 24px;
+    }
+
+    .events .events-list .card-body .date,
+    .events .events-list .card-body .place {
+        font-size: 16px;
+    }
+}
+
+/* Responsive styling for very small screens */
+@media (max-width: 480px) {
+    .events {
+        padding-top: 40px;
+    }
+
+    .events .event-title {
+        font-size: 24px;
+    }
+
+    .events .service-content {
+        font-size: 14px;
+        text-align: center; /* Ensure alignment consistency */
+    }
+
+    .events .find-an-event {
+        font-size: 20px;
+    }
+
+    .events .events-list .card-body .date,
+    .events .events-list .card-body .place {
+        font-size: 14px;
+    }
 }

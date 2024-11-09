@@ -1,7 +1,41 @@
+/* Base styling */
 .EventsDescriptionPage {
     padding-top: 100px;
 }
 
 .event-title {
     font-size: 24px;
+}
+
+/* Responsive styling for tablets and smaller screens */
+@media (max-width: 1024px) {
+    .EventsDescriptionPage {
+        padding-top: 80px; /* Adjust padding for smaller screens */
+    }
+
+    .event-title {
+        font-size: 22px; /* Slightly reduce font size */
+    }
+}
+
+/* Responsive styling for mobile screens */
+@media (max-width: 768px) {
+    .EventsDescriptionPage {
+        padding-top: 60px; /* Further reduce padding for mobile */
+    }
+
+    .event-title {
+        font-size: 20px; /* Reduce font size further */
+    }
+}
+
+/* Responsive styling for very small screens */
+@media (max-width: 480px) {
+    .EventsDescriptionPage {
+        padding-top: 40px; /* Minimal padding for very small screens */
+    }
+
+    .event-title {
+        font-size: 18px; /* Even smaller font size */
+    }
 }

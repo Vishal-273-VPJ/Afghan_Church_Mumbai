@@ -1,9 +1,12 @@
+/* Base styling */
 .leadership {
-    background-color: #eee; /* Background color */
-    color: rgb(13, 26, 38); /* Text color */
-    position: relative; /* Keep it in the flow of the document */
-    z-index: 1; /* Ensure it stays above other content */
-    padding-top: 100px; /* Add padding to push content below navbar */
+    background-color: #eee;
+    width: 100%;
+    height: 100%;
+    color: rgb(13, 26, 38);
+    position: relative;
+    z-index: 1;
+    padding-top: 100px;
 }
 
 span {
@@ -12,4 +15,50 @@ span {
 
 .serverd {
     font-size: 20px;
+}
+
+
+/* Responsive styling for tablets and smaller screens */
+@media (max-width: 1024px) {
+    .leadership {
+        padding-top: 80px; /* Reduce top padding for smaller screens */
+    }
+
+    span {
+        font-size: 35px; /* Smaller font size for span */
+    }
+
+    .serverd {
+        font-size: 18px; /* Adjust font size */
+    }
+}
+
+/* Responsive styling for mobile screens */
+@media (max-width: 768px) {
+    .leadership {
+        padding-top: 60px; /* Further reduce padding */
+    }
+
+    span {
+        font-size: 30px; /* Further reduce font size for mobile */
+    }
+
+    .serverd {
+        font-size: 16px;
+    }
+}
+
+/* Responsive styling for very small screens */
+@media (max-width: 480px) {
+    .leadership {
+        padding-top: 100px;
+    }
+
+    span {
+        font-size: 24px; /* Compact font size for small mobile screens */
+    }
+
+    .serverd {
+        font-size: 14px;
+    }
 }

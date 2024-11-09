@@ -1,47 +1,115 @@
+/* Base styling for quote */
 .quote {
-    display: flex;            /* Use flexbox */
-    flex-direction: column;   /* Align items in a column */
-    justify-content: center;  /* Center content vertically */
-    align-items: center;      /* Center content horizontally */
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    padding: 20px;
-    border-radius: 5px;
-    font-family: 'Georgia', serif;
-    padding-top: 200px;
-    padding-bottom: 30px;
+  display: flex;            /* Use flexbox */
+  flex-direction: column;   /* Align items in a column */
+  justify-content: center;  /* Center content vertically */
+  align-items: center;      /* Center content horizontally */
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+  font-family: 'Georgia', serif;
+  padding-top: 200px;
+  padding-bottom: 30px;
+}
+
+/* Blockquote styling */
+blockquote {
+  font-size: 1.5em;
+  font-style: italic;
+  margin: 10px 0;
+  text-align: center;      /* Center blockquote text */
+}
+
+/* Footer styling */
+footer {
+  font-size: 1em;
+  text-align: right;
+  margin-top: 5px;
+}
+
+/* Quote text styling */
+.quote-text {
+  margin: 10px 0;
+  font-size: 1.2em;
+  text-align: center;      /* Center quote text */
+}
+
+/* Main page link styling */
+.main-page-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Main page link hover effect */
+.main-page-link:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive styling for tablets and smaller screens */
+@media (max-width: 1024px) {
+  .quote {
+      padding-top: 100px;  /* Reduce top padding for tablets */
+      padding-bottom: 20px; /* Adjust bottom padding */
   }
-  
+
   blockquote {
-    font-size: 1.5em;
-    font-style: italic;
-    margin: 10px 0;
-    text-align: center;      /* Center blockquote text */
+      font-size: 1.3em; /* Adjust font size for blockquote */
   }
-  
-  footer {
-    font-size: 1em;
-    text-align: right;
-    margin-top: 5px;
-  }
-  
+
   .quote-text {
-    margin: 10px 0;
-    font-size: 1.2em;
-    text-align: center;      /* Center quote text */
+      font-size: 1.1em; /* Adjust font size for quote text */
   }
-  
+
   .main-page-link {
-    display: inline-block;
-    margin-top: 10px;
-    padding: 10px 15px;
-    background-color: #007bff;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
+      padding: 8px 12px; /* Adjust padding for smaller screens */
+      font-size: 1em; /* Adjust font size */
   }
-  
-  .main-page-link:hover {
-    background-color: #0056b3;
+}
+
+/* Responsive styling for mobile screens */
+@media (max-width: 768px) {
+  .quote {
+      padding-top: 100px;  /* Further reduce top padding */
+      padding-bottom: 15px; /* Further adjust bottom padding */
   }
-  
+
+  blockquote {
+      font-size: 1.2em; /* Further reduce font size */
+  }
+
+  .quote-text {
+      font-size: 1em; /* Further reduce font size */
+  }
+
+  .main-page-link {
+      padding: 6px 10px; /* Further adjust padding for small screens */
+      font-size: 0.9em; /* Further reduce font size */
+  }
+}
+
+/* Responsive styling for very small screens */
+@media (max-width: 480px) {
+  .quote {
+      padding-top: 100px;  /* Reduce top padding for very small screens */
+      padding-bottom: 10px; /* Reduce bottom padding */
+  }
+
+  blockquote {
+      font-size: 1.1em; /* Further reduce blockquote font size */
+  }
+
+  .quote-text {
+      font-size: 0.9em; /* Further reduce font size for quote text */
+  }
+
+  .main-page-link {
+      padding: 5px 8px; /* Reduce padding for very small screens */
+      font-size: 0.8em; /* Reduce font size further */
+  }
+}

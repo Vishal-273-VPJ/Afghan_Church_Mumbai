@@ -1,13 +1,14 @@
+/* Base styling */
 .presbyter {
-    background-color: #eee; /* Background color */
-    color: rgb(13, 26, 38); /* Text color */
+    background-color: #eee;
+    color: rgb(13, 26, 38);
     font-size: 20px;
 }
 
 .pastor {
     width: 462px;
     margin-left: 150px;
-    padding-bottom:  135px;
+    padding-bottom: 135px;
 }
 
 .presbyter-right {
@@ -21,4 +22,80 @@
 .rev {
     color: #ec5300;
     font-size: 24px;
+}
+
+/* Responsive styling for tablets and smaller screens */
+@media (max-width: 1024px) {
+    .presbyter {
+        font-size: 18px; /* Slightly reduce font size */
+    }
+
+    .pastor {
+        width: 100%; /* Full width on smaller screens */
+        margin-left: 0; /* Center align for smaller screens */
+        padding-bottom: 100px; /* Reduce padding */
+    }
+
+    .presbyter-right {
+        padding-top: 1px;
+        padding-bottom: 30px;
+    }
+
+    .incharge {
+        font-size: 18px; /* Slightly smaller font */
+    }
+
+    .rev {
+        font-size: 22px; /* Adjust font size */
+    }
+}
+
+/* Responsive styling for mobile screens */
+@media (max-width: 768px) {
+    .presbyter {
+        font-size: 16px; /* Smaller font for readability */
+    }
+
+    .pastor {
+        width: 100%; /* Full width for mobile */
+        padding-bottom: 80px;
+    }
+
+    .presbyter-right {
+        padding-top: 1px;
+        padding-bottom: 30px;
+    }
+
+    .incharge {
+        font-size: 16px;
+    }
+
+    .rev {
+        font-size: 20px;
+    }
+}
+
+/* Responsive styling for very small screens */
+@media (max-width: 480px) {
+    .presbyter {
+        font-size: 14px;
+    }
+
+    .pastor {
+        width: 100%;
+        padding-bottom: 60px;
+    }
+
+    .presbyter-right {
+        padding-top: 1px;
+        padding-bottom: 30px;
+    }
+
+    .incharge {
+        font-size: 14px;
+    }
+
+    .rev {
+        font-size: 18px;
+    }
 }

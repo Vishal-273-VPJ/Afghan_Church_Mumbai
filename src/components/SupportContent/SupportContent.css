@@ -1,25 +1,126 @@
+/* Base styling */
 .supportcontent {
-    padding-top: 150px;
+  padding-top: 150px;
 }
 
 #sunday {
-    font-size: 40px; /* Set font size for the p tags */
-  }
-  
+  font-size: 40px;
+}
+
 #service1, #service2, #service3 {
-    font-size: 30px; /* Set font size for the div tags */
+  font-size: 30px;
+}
+
+#gatherings {
+  font-size: 70px;
+  letter-spacing: 10px;
+  color: #ec5300;
+  outline: black;
+}
+
+#wednesday {
+  font-size: 55px;
+  color: #ec5300;
+  letter-spacing: 5px;
+  outline-color: black;
+}
+
+/* Responsive adjustments for screens 1400px and smaller */
+@media (max-width: 1400px) {
+  .supportcontent {
+      padding-top: 100px;
+  }
+
+  #sunday {
+      font-size: 35px;
+  }
+
+  #service1, #service2, #service3 {
+      font-size: 25px;
   }
 
   #gatherings {
-    font-size: 70px;
-    letter-spacing: 10px;
-    color: #ec5300;
-    outline: black;
+      font-size: 60px;
+      letter-spacing: 8px;
   }
 
   #wednesday {
-    font-size: 55px;
-    color: #ec5300;
-    letter-spacing: 5px;
-    outline-color: black;
+      font-size: 50px;
+      letter-spacing: 4px;
   }
+}
+
+/* Adjustments for screens 1024px and smaller */
+@media (max-width: 1024px) {
+  .supportcontent {
+      padding-top: 100px;
+  }
+
+  #sunday {
+      font-size: 30px;
+  }
+
+  #service1, #service2, #service3 {
+      font-size: 22px;
+  }
+
+  #gatherings {
+      font-size: 50px;
+      letter-spacing: 6px;
+  }
+
+  #wednesday {
+      font-size: 45px;
+      letter-spacing: 3px;
+  }
+}
+
+/* Adjustments for screens 768px and smaller */
+@media (max-width: 768px) {
+  .supportcontent {
+      padding-top: 100px;
+  }
+
+  #sunday {
+      font-size: 25px;
+  }
+
+  #service1, #service2, #service3 {
+      font-size: 20px;
+  }
+
+  #gatherings {
+      font-size: 40px;
+      letter-spacing: 5px;
+  }
+
+  #wednesday {
+      font-size: 35px;
+      letter-spacing: 2px;
+  }
+}
+
+/* Adjustments for screens 480px and smaller */
+@media (max-width: 480px) {
+  .supportcontent {
+      padding-top: 100px;
+  }
+
+  #sunday {
+      font-size: 20px;
+  }
+
+  #service1, #service2, #service3 {
+      font-size: 18px;
+  }
+
+  #gatherings {
+      font-size: 30px;
+      letter-spacing: 3px;
+  }
+
+  #wednesday {
+      font-size: 28px;
+      letter-spacing: 1px;
+  }
+}

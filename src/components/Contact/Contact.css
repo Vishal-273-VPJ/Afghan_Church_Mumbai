@@ -1,3 +1,4 @@
+/* Base styles for contact section */
 .contact {
     background-color: #eee; /* Background color */
     color: rgb(13, 26, 38); /* Text color */
@@ -6,9 +7,10 @@
     padding-top: 100px; /* Add padding to push content below navbar */
 }
 
+/* Form control styles */
 input.form-control {
     background-color: transparent; /* Make the background transparent */
-    border: 1px solid #000; /* Blue border for visibility */
+    border: 1px solid #000; /* Border for visibility */
     color: #000; /* Text color */
     transition: border-color 0.3s; /* Smooth transition for border color */
     box-shadow: none; /* Remove default box shadow */
@@ -34,45 +36,112 @@ input.form-control:-moz-placeholder {
 
 /* Add hover effect */
 input.form-control:hover {
-    border-color: #000; /* Darker blue on hover */
+    border-color: #000; /* Darker border on hover */
 }
 
 /* Focus state */
 input.form-control:focus {
     outline: none; /* Remove default outline */
-    border-color: #0056b3; /* Darker blue on focus */
+    border-color: #0056b3; /* Blue border on focus */
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Add shadow on focus */
 }
 
+/* Textarea form control */
 textarea.form-control {
     resize: none; /* Disable resizing of textarea */
-    background-color: transparent; /* Ensure textarea background is transparent */
+    background-color: transparent; /* Transparent background */
     border-radius: 0; /* Square corners */
-    border: 1px solid #000; /* Blue border for consistency */
+    border: 1px solid #000; /* Border for consistency */
 }
 
-/* Additional styles for better visibility */
+/* Focus state for textarea */
 textarea.form-control:focus {
     outline: none; /* Remove default outline */
-    border-color: #0056b3; /* Darker blue on focus */
+    border-color: #0056b3; /* Blue border on focus */
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Add shadow on focus */
 }
 
+/* Button styles */
 .button {
-    width: 50%; /* Set width for the square button */
-    height: 100%; /* Set height for the square button */
-    background-color: #007bff; /* Blue background (you can change it) */
-    color: white; /* White text color */
-    border: none; /* Remove default border */
+    width: 50%; /* Set width for the button */
+    height: 100%; /* Set height for the button */
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    border: none; /* Remove border */
     border-radius: 0; /* Square corners */
     transition: background-color 0.3s; /* Smooth transition for background color */
     padding: 15px; /* Add padding */
-    display: flex; /* Use flexbox to center the text */
-    align-items: center; /* Center the text vertically */
-    justify-content: center; /* Center the text horizontally */
+    display: flex; /* Use flexbox to center text */
+    align-items: center; /* Center text vertically */
+    justify-content: center; /* Center text horizontally */
 }
 
-/* Hover effect */
+/* Hover effect for button */
 .button:hover {
     background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Responsive styles for tablets and smaller screens (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .contact {
+        padding-top: 80px; /* Reduce padding for tablets */
+    }
+
+    input.form-control,
+    textarea.form-control {
+        width: 100%; /* Make form controls full width */
+        padding: 12px; /* Adjust padding */
+    }
+
+    .button {
+        width: 60%; /* Make the button a bit wider on tablets */
+        padding: 20px; /* Adjust padding */
+    }
+    pre {
+        text-wrap: wrap;
+    }
+}
+
+/* Responsive styles for mobile screens (max-width: 768px) */
+@media (max-width: 768px) {
+    .contact {
+        padding-top: 60px; /* Reduce top padding for mobile */
+    }
+
+    input.form-control,
+    textarea.form-control {
+        width: 100%; /* Make form controls full width */
+        padding: 12px; /* Adjust padding */
+        font-size: 16px; /* Adjust font size */
+    }
+
+    .button {
+        width: 70%; /* Make the button wider for mobile */
+        padding: 18px; /* Adjust padding */
+    }
+    pre {
+        text-wrap: wrap;
+    }
+}
+
+/* Responsive styles for very small screens (max-width: 480px) */
+@media (max-width: 480px) {
+    .contact {
+        padding-top: 40px; /* Further reduce top padding for very small screens */
+    }
+
+    input.form-control,
+    textarea.form-control {
+        width: 100%; /* Ensure full width for small screens */
+        padding: 10px; /* Adjust padding */
+        font-size: 14px; /* Smaller font size for readability */
+    }
+
+    .button {
+        width: 80%; /* Make button wider for small screens */
+        padding: 15px; /* Adjust padding */
+    }
+    pre {
+        text-wrap: wrap;
+    }
 }

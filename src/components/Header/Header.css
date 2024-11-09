@@ -1,3 +1,4 @@
+
 * {
     border: 0;
     box-sizing: border-box;
@@ -84,15 +85,43 @@ a {
     transition: transform 0.5s ease-out;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 1400px) {
     #navbar ul {
-        display: none;
+        font-size: 12px;
+    }   
+}
+
+@media (max-width: 1200px) {
+    .logo-text {
+        font-size: 8px;
+    }   
+}
+
+@media (max-width: 1000px) {
+    .logo-text {
+        font-size: 20px;
+    }
+    #navbar ul {
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+        background-color: #eee;
+        font-size: inherit;
+        border: 1px solid black;
+        scroll-behavior: smooth;
+        max-height: 200px; /* Adjust height based on your layout */
+        overflow-y: auto;
     }
 }
 
-@media (orientation: landscape) {
-    #navbar ul {
-        display: inline-block;
+@media (max-width: 450px) {
+    .logo-text{
+        font-size: 12px;
+    }
+    .logo-img {
+        height: 50px; /* Set height of logo image */
+        width: 50px; /* Set width of logo image */
+        margin-right: 5px; /* Space between image and text */
     }
 }
 
@@ -151,71 +180,6 @@ a {
     background: transparent;
     width: 100%;
 }
-
-/*======================================================
-                    Mobile Menu Icon
-========================================================*/
-@media (max-width: 640px) {
-    .menuIcon {
-        cursor: pointer;
-        display: block;
-        position: fixed;
-        right: 15px;
-        top: 20px;
-        height: 23px;
-        width: 27px;
-        z-index: 12;
-    }
-
-    /* Icon Bars */
-    .icon-bars {
-        background: rgb(13, 26, 38);
-        position: absolute;
-        left: 1px;
-        top: 45%;
-        height: 2px;
-        width: 20px;
-        transition: 0.4s;
-    }
-
-    .icon-bars::before,
-    .icon-bars::after {
-        background: rgb(13, 26, 38);
-        content: '';
-        position: absolute;
-        left: 0;
-        height: 2px;
-        width: 20px;
-        transition: 0.4s;
-    }
-
-    .icon-bars::before {
-        top: -8px;
-    }
-
-    .icon-bars::after {
-        bottom: -8px;
-    }
-
-    /* Toggle Menu Icon */
-    .menuIcon.toggle .icon-bars {
-        top: 5px;
-        transform: translate3d(0, 5px, 0) rotate(135deg);
-        transition-delay: 0.1s;
-    }
-
-    .menuIcon.toggle .icon-bars::before {
-        top: 0;
-        opacity: 0;
-    }
-
-    .menuIcon.toggle .icon-bars::after {
-        top: 10px;
-        transform: translate3d(0, -10px, 0) rotate(-270deg);
-        transition-delay: 0.1s;
-    }
-}
-
 /*======================================================
                 Responsive Mobile Menu 
 ========================================================*/
