@@ -10,7 +10,7 @@
   border-radius: 5px;
   font-family: 'Georgia', serif;
   padding-top: 200px;
-  padding-bottom: 30px;
+  padding-bottom: 252px;
 }
 
 /* Blockquote styling */
@@ -55,7 +55,7 @@ footer {
 @media (max-width: 1024px) {
   .quote {
       padding-top: 100px;  /* Reduce top padding for tablets */
-      padding-bottom: 20px; /* Adjust bottom padding */
+      padding-bottom: 252px; /* Adjust bottom padding */
   }
 
   blockquote {
@@ -76,7 +76,7 @@ footer {
 @media (max-width: 768px) {
   .quote {
       padding-top: 100px;  /* Further reduce top padding */
-      padding-bottom: 15px; /* Further adjust bottom padding */
+      padding-bottom: 252px; /* Further adjust bottom padding */
   }
 
   blockquote {
@@ -97,7 +97,7 @@ footer {
 @media (max-width: 480px) {
   .quote {
       padding-top: 100px;  /* Reduce top padding for very small screens */
-      padding-bottom: 10px; /* Reduce bottom padding */
+      padding-bottom: 252px; /* Reduce bottom padding */
   }
 
   blockquote {
