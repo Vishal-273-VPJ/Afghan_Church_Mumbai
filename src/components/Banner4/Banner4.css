@@ -1,9 +1,18 @@
 .banner4 {
     background-color: #eee;
 }
+
+.banner4 img {
+    width: 150px;
+}
+
 @media (max-width: 780px) {
     .banner4 .banner4-download h2 {
         text-align: center;
+    }
+
+    .banner4 img {
+        width: 100px;
     }
 
     .banner4 .banner4-download p {

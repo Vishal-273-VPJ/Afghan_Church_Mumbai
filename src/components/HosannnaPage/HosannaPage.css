@@ -7,6 +7,10 @@
     padding-bottom: 90px;
 }
 
+.hosanna img {
+    width: 100px;
+}
+
 .hosanna-title {
     color: #ec5300;
 }
@@ -27,4 +31,9 @@
     .hosanna .hossana-button button {
         margin-bottom: 20px;
     }
+
+    .hosanna img {
+        width: 80px;
+    }
+    
 }
