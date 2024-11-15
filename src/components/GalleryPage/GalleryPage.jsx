@@ -21,7 +21,7 @@ const GalleryPage = () => {
             <div className="col-md-4" key={index}>
               <div className="p-3 bg-light shadow-lg rounded"> {/* Bootstrap shadow-lg and rounded corners */}
                 <img
-                  src={`/gallery/${image}`}
+                  src={`${image}`}
                   alt={`Gallery item ${index + 1}`}
                   className="img-fluid rounded" // Optional: rounded corners on images as well
                 />
