@@ -109,8 +109,12 @@ a {
         font-size: inherit;
         border: 1px solid black;
         scroll-behavior: smooth;
-        max-height: 200px; /* Adjust height based on your layout */
         overflow-y: auto;
+    }
+
+    #navbar .navbar-toggler span {
+        width: 30px;
+        height: 30px;
     }
 }
 
@@ -122,6 +126,12 @@ a {
         height: 50px; /* Set height of logo image */
         width: 50px; /* Set width of logo image */
         margin-right: 5px; /* Space between image and text */
+    }
+
+    
+    #navbar .navbar-toggler span {
+        width: 25px;
+        height: 25px;
     }
 }
 

@@ -31,40 +31,13 @@ const Contact = () => {
                         </p>
                     </div>
                 </div>
-                <div className="col-md-6 col-lg-6">
-                    <form action="" className='mt-5'>
-                        <div className="col-md-12 mb-2">
-                            <label for="name">Name *</label>
-                            <input type="text" class="form-control" id="name" aria-describedby="name" placeholder="Enter your name" />
-                        </div>
-                        <div className="col-md-12 mb-2">
-                            <label for="address">Address *</label>
-                            <input type="text" class="form-control" id="address" aria-describedby="address" placeholder="Enter your address" />
-                        </div>
-                        <div className="col-md-12 mb-2">
-                            <div className="row">
-                                <div className="col-md-6">
-                                    <label for="email">Email *</label>
-                                    <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="Enter your email" />
-                                </div>
-                                <div className="col-md-6">
-                                    <label for="phone">Phone *</label>
-                                    <input type="tel" class="form-control" id="phone" aria-describedby="phone" placeholder="Enter your phone number" />
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-12 mb-2">
-                            <label for="subject">Subject *</label>
-                            <input type="text" class="form-control" id="subject" aria-describedby="subject" placeholder="Type your subject" />
-                        </div>
-                        <div className="col-md-12 mb-4">
-                            <label for="message">Message *</label>
-                            <textarea type="text" class="form-control" rows="4" id="message" aria-describedby="message" placeholder="Type your message here" />
-                        </div>
-                        <div className="d-flex justify-content-center">
-                            <button type="submit" className="button">Confirm identity</button>
-                        </div>
-                    </form>
+                <div className="col-md-6 col-lg-6 text-center">
+                    <div className="donation-text mt-5 mb-4">
+                        <h2>
+                            Scan to contact
+                        </h2>
+                    </div>
+                    <img src="/contact_qrcode.png" alt="QR Code" className="img-fluid mb-3" style={{ maxWidth: '310px' }} />
                 </div>
             </div>
         </div>

@@ -81,6 +81,10 @@ textarea.form-control:focus {
     background-color: #0056b3; /* Darker blue on hover */
 }
 
+.contact .donation-text p {
+    text-wrap: wrap;
+}
+
 /* Responsive styles for tablets and smaller screens (max-width: 1024px) */
 @media (max-width: 1024px) {
     .contact {

@@ -9,3 +9,7 @@
 .banner-text {
     color: white;
 }
+
+.banner2 .banner-text p {
+    font-size: 20px;
+}
