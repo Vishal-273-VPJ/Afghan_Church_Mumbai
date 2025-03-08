@@ -5,6 +5,7 @@ deployment:
   directory: "/home/bqhatuwa/public_html"  # The directory where your site should be deployed (check with your provider for the exact path)
   build:
     commands:
+      - "yarn install"
       - "yarn build"  # Build the app
   artifacts:
     - "build"           # The build folder (replace with your folder if different)
